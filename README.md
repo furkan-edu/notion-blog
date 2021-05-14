@@ -4,7 +4,13 @@ You can easily install Strapi on your server for free via docker and easily deve
 
 ## Getting Started
 
-First, run the development server:
+First of all we need DATABASE_ID and Internal Integration Token.
+
+[Getting Started Notion API](https://developers.notion.com/docs/getting-started "Getting Started Notion API")
+
+Then add the DATABASE_ID and Token in .env.example and rename the filename to .env.
+
+Now run the development server:
 
 ```bash
 npm run dev
